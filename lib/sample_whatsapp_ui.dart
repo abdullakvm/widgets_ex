@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
 class WhatsappUi extends StatelessWidget {
-  WhatsappUi({super.key});
-  String name = "Stephen Varghes Chembrakadav House kvm malappuam";
+  const WhatsappUi({super.key});
+ 
 
   @override
   Widget build(BuildContext context) {
+     String name = "Stephen Varghes Chembrakadav House kvm malappuam";
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.arrow_back, size: 30, color: Colors.white),
