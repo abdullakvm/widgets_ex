@@ -108,7 +108,7 @@ class WhatsappUi extends StatelessWidget {
             title: Row(
               children: [
                 Text(
-                  name.length > 15 ? name.substring(0, 15) + '...' : name,
+                  name.length > 15 ? '${name.substring(0, 15)}...' : name,
 
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
