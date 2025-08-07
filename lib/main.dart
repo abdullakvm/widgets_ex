@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_ui_2/stack_ex.dart';
-import 'package:sample_ui_2/ui_sample2.dart';
-import 'package:sample_ui_2/ui_usingstack.dart';
+import 'package:sample_ui_2/sample_ui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home:Stackuisample ());
+    return MaterialApp(debugShowCheckedModeBanner: false, home:ProductUi ());
   }
 }
